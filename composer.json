@@ -1,0 +1,16 @@
+{
+    "name": "chetan/chetang-php-composer",     
+    "description": "A simple chetan hello world dummy package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chetan Gadgilwar",
+            "email": "cgadgilwar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"chetang\\DummyProject\\": "src/"}
+    },
+    "require": {}
+}
